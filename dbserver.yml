@@ -1,0 +1,12 @@
+---
+- hosts: dbserver
+  become: yes
+  roles:
+   - role: 'roles/HSC/monitoring'
+     tags:
+       - hold_HSC
+   - role: 'roles/common/webtier'
+   - role: 'roles/common/linux_hardening'
+     tags:
+       - hold_common
+  

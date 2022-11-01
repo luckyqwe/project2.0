@@ -1,0 +1,9 @@
+- name: Install the servers
+  ansible.builtin.yum:
+    name:
+    - httpd
+    - memcached
+    state: present
+  tags:
+  - packages
+  - webservers

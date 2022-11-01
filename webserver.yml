@@ -1,0 +1,8 @@
+---
+- hosts: webserver
+  become: true
+  name: execute role
+  roles:
+    - role: 'roles/DCE/fooapp'
+      tags:
+        - present

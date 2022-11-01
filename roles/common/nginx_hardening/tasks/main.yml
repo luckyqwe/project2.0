@@ -1,0 +1,7 @@
+---
+- name: Install the latest version of nginx
+  ansible.builtin.yum:
+    name: nginx
+    state: latest
+- name: Include task list in play only if the condition is true
+  ansible.builtin.include: "hardening.yml"

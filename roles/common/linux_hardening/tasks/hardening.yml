@@ -1,0 +1,23 @@
+---
+- name: Perform full patching
+  package:
+    name: '*'
+    state: latest
+
+- name: Add group name
+  group:
+    name: "{{ group_name }}"
+    state: present
+
+- name: Add local user
+  ansible.builtin.user:
+    name: "{{ user_name}}"
+    group: "{{ group_name }}"
+    shell: /bin/bash
+    home: /home/masternew1
+    create_home: yes
+    state: present
+    password: "{{ user_passwd | password_hash('sha512') }}"
+
+- name: include task
+  include_tasks:  passwdexp.yml
