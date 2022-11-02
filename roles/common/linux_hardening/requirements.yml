@@ -1,2 +1,6 @@
-# from GitHub
-- src :  https://github.com/luckyqwe/roles/tree/main/linux_hardening
+---
+collections:
+  # Install a collection from Ansible Galaxy.
+  - name: geerlingguy.php_roles
+    version: 0.9.3
+    source: https://galaxy.ansible.com
