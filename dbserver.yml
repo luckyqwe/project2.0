@@ -6,6 +6,8 @@
      tags:
        - hold_HSC
    - role: 'roles/common/webtier'
+     tags:
+       - hold_webtier
    - role: 'roles/common/linux_hardening'
      tags:
        - hold_common
