@@ -1,3 +1,4 @@
----
 collections:
-  - geerlingguy.php-mysql
+  - name: https://github.com/luckyqwe/roles/tree/main/linux_hardening
+    type: git
+    version: devel
