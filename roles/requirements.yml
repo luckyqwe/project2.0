@@ -1,5 +1,5 @@
 collections:
   # Install a collection from Ansible Galaxy.
-  - name: geerlingguy.php_roles
-    version: 0.9.3
+  - name: geerlingguy.apache
+    version: 3.3.0
     source: https://galaxy.ansible.com
