@@ -1,7 +1,6 @@
-# Fetching from git
-- src: https://github.com/luckyqwe/roles.git
-
-#Fetching from Private automation hub
+ #Fetching from Private automation hub
 collections:
   - name: acch.spectrum_scale_test
-
+  - name: https://github.com/luckyqwe/roles.git
+    type: git
+    version: devel
