@@ -1,1 +1,2 @@
-- name: acch.spectrum_scale_test
+collections:
+  - name: acch.spectrum_scale_test
