@@ -1,4 +1,2 @@
-# from GitHub
-- src: https://github.com/luckyqwe/roles.git
 collections:
   - name: spectrum_scale_test
