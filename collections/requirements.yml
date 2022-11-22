@@ -1,3 +1,2 @@
 collections:
-  - name: acch.spectrum_scale_test
-    version: 3.0.2
+  - name: damhau.ansible_for_nsxt
