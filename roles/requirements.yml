@@ -1,3 +1,4 @@
  #Fetching from Private automation hub
 collections:
-  https://github.com/luckyqwe/roles.git
+  - name: https://github.com/luckyqwe/roles.git
+ #name: https://github.com/luckyqwe/roles/tree/main/linux_hardening
