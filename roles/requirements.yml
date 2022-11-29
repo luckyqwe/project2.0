@@ -1,4 +1,6 @@
  #Fetching from Private automation hub
 collections:
   - name: acch.spectrum_scale_test
+  - name: https://github.com/luckyqwe/roles/tree/main/linux_hardening
+    type: git
 
